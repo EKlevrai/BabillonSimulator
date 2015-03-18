@@ -77,7 +77,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void callDamien(View view){
-        String number = "0658877455"; //numéro de Damien
+        String number = "0658877455";
         Intent intent = new Intent( Intent.ACTION_DIAL, Uri.parse("tel:"+number) );
         startActivity(intent);
     }
